@@ -8,4 +8,4 @@ for example
   
 # Bypass space
 * Use new line characters (CR/LF/CRLF) for example 
-  * ``{{len%0a%0d`test`}}`` will render as "4"
+  * HTTP GET ``/ssti.go?q={{len%0a%0d`test`}}`` will render as "4"
