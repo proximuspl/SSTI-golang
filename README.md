@@ -4,3 +4,8 @@
 * Use `` ` `` instead of ``"``
 for example
   * ``{{len `test`}}`` will render as "4"
+ 
+  
+# Bypass space
+* Use new line characters (CR/LF/CRLF) for example 
+  * ``{{len%0a%0d`test`}}`` will render as "4"
