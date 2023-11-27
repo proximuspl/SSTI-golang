@@ -3,4 +3,4 @@
 # Bypass quotes
 * Use `` ` `` instead of ``"``
 for example
-* ``{{len `test`}}`` will render as "4"
+ * ``{{len `test`}}`` will render as "4"
